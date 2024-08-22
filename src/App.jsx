@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className='container lg:px-32 md:px-12 px-4'>
+      <div className='flex flex-col items-start justify-center lg:px-32 md:px-12 px-4'>
         <SearchBar/>
         <CardList />
       </div>
