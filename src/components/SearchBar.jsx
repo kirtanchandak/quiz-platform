@@ -3,7 +3,7 @@ import { FaPlus } from "react-icons/fa6";
 function SearchBar() {
   return (
     <>
-      <div className="flex justify-between mt-12 border-[0.3px] border-[#A5A3A9] py-[15px] px-[33px] rounded-[18px]">
+      <div className="flex justify-between mt-8 border-[0.3px] border-[#A5A3A9] py-[15px] px-[33px] rounded-[18px]">
         <div className="">
           <h1 className="font-bold">Hello! 👋</h1>
           <p className="text-gray-400">Lorem ipsum dolar sit amet</p>

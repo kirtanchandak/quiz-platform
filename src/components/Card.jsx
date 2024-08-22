@@ -3,7 +3,6 @@ import { TiPencil } from "react-icons/ti";
 import { RiShareBoxLine } from "react-icons/ri";
 import { BiSolidToggleRight } from "react-icons/bi";
 import { cardData } from "../data/data";
-import bin from "../assets/bin.svg"
 
 // eslint-disable-next-line react/prop-types
 function Card({ title, questionCount }) {
