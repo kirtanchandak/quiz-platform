@@ -9,7 +9,7 @@ function Card({ title, questionCount }) {
   return (
     <>
       <div className="relative border-[1px] border-blue-500 md:flex rounded-lg shadow-xl mt-8">
-        <div className="bg-gray-100 rounded-tl-lg rounded-bl-lg md:w-1/3 relative">
+        <div className="bg-gray-100 rounded-tl-lg md:rounded-bl-lg rounded-bl-none md:rounded-tr-none rounded-tr-lg  md:w-1/3 relative">
           <div className="absolute top-0 left-0 bg-gray-200 text-blue-500 font-medium text-sm px-3 py-1 rounded-tl-lg rounded-br-lg">
             Open
           </div>

@@ -4,7 +4,7 @@ function SearchBar() {
   return (
     <>
       <div className="flex justify-between pt-12">
-        <div>
+        <div className="md:ml-12">
           <h1 className="font-bold">Hello! 👋</h1>
           <p className="text-gray-400">Lorem ipsum dolar sit amet</p>
         </div>
