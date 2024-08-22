@@ -1,31 +1,30 @@
 function Navbar() {
   return (
     <>
-      <div className="flex justify-between bg-blue-500 px-8 py-6 text-white">
-        <div className="mt-2">
-          <h1 className="font-extrabold text-xl">LoremIpsum</h1>
+      <div className="flex justify-between bg-blue-500 px-8 py-4 text-white">
+        <div className="flex items-center">
+          <h1 className="font-extrabold text-[26px]">DISRUPT: <span className="font-normal text-[21px]">Stimulating Innovation</span></h1>
         </div>
         <div>
-          <div className="flex gap-24">
             <div className="mt-1 hidden md:block">
-              <ul className="flex gap-8 bg-white bg-opacity-10 px-6 py-2 rounded-full font-normal">
-                <li>Home</li>
-                <li className="font-semibold">GameMaster</li>
-                <li>Participant</li>
-                <li>Judge</li>
-              </ul>
-            </div>
-            <div className="flex gap-2 mt-2">
-              <p className="mt-1 font-medium">Kirtan</p>
-              <img
-                src="https://i.pinimg.com/originals/07/31/1f/07311f192c731076761618e782d5307c.jpg"
-                alt="img"
-                className="w-8 h-8 rounded-full"
-              />
+              <div className="flex gap-[30px] px-6 py-2 rounded-full text-base">
+                <div className="flex items-center gap-[30px]">
+                <p className="font-semibold">Home</p>
+                <p>Option 1</p>
+                <p>Option 2</p>
+                </div>
+                  <div className="flex items-center gap-[13px]">
+                    <p className="font-medium text-base">Kirtan</p>
+                    <img
+                      src="https://i.pinimg.com/originals/07/31/1f/07311f192c731076761618e782d5307c.jpg"
+                      alt="img"
+                      className="w-7 h-7 rounded-full border-2 border-white"
+                    />
+                  </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 }

@@ -1,9 +1,5 @@
 export const cardData = [
     {
-      title: "Challenge 1",
-      questionCount: "1",
-    },
-    {
       title: "Challenge 2",
       questionCount: "2",
     },
