@@ -1,9 +1,9 @@
 function Navbar() {
   return (
     <>
-      <div className="flex justify-between bg-blue-500 px-8 py-4 text-white">
+      <div className="flex justify-between bg-blue-500 px-8 py-4 text-white backImg">
         <div className="flex items-center">
-          <h1 className="font-extrabold text-[26px]">DISRUPT: <span className="font-normal text-[21px]">Stimulating Innovation</span></h1>
+          <h1 className="font-extrabold md:text-[26px] text-2xl">DISRUPT: <span className="font-normal md:text-[21px] text-[17px]">Stimulating Innovation</span></h1>
         </div>
         <div>
             <div className="mt-1 hidden md:block">

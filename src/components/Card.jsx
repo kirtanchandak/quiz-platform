@@ -60,13 +60,13 @@ function CardList() {
             <p className="text-sm font-medium">Total Questions: 1</p>
           </div>
         </div>
-        <div className="flex items-center py-[37px] px-[66px] md:w-2/3">
+        <div className="flex items-center md:py-[37px] md:px-[66px] px-12 py-4 md:w-2/3">
           <p className="text-gray-600 md:pt-0 pt-2 lg:text-base text-sm">
             Background Details: What needs to be done and why. What needs 
             to be done disrupted. Lorem ipsum dolor sit amet
           </p>
         </div>
-        <div className="flex items-center gap-2 py-[37px] px-[36px]">
+        <div className="flex items-center gap-2 md:py-[37px] md:px-[66px] px-12 py-4">
           <div className="mr-6 text-blue-500">
             <div className="flex justify-center">
               <BiSolidToggleRight className="text-2xl" />
