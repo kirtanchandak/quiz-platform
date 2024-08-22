@@ -3,7 +3,7 @@ import deleteI from "../assets/bin.svg";
 import edit from "../assets/edit.svg"
 import share from "../assets/share.svg"
 import disabled from "../assets/disabled.svg"
-import enabled from "../assets/enabled.svg"
+import enabled from "../assets/enabled-img.svg"
 
 // eslint-disable-next-line react/prop-types
 function Card({ title, questionCount }) {
@@ -28,7 +28,7 @@ function Card({ title, questionCount }) {
         <div className="flex items-center justify-center gap-2 md:py-[37px] md:px-[36px] px-12 py-4">
           <div className="mr-6 text-blue-500">
             <div className="flex justify-center">
-              <img src={enabled} />
+              <img src={enabled} alt="enabled" />
             </div>
             <p className="text-xs">Open</p>
           </div>
